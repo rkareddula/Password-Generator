@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 13px;
+}
+
 hr {
     height: 2px;
     /* Set the desired thickness */
-    background-color: #2F3E53;
+    background-color: #2f3e53;
     /* Set the desired color */
     border: none;
     /* Remove the default border */
@@ -15,20 +19,20 @@ hr {
 }
 
 body {
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     color: white;
     font-family: Inter;
 }
 
 .app {
-    width: 40em;
     background-color: #273549;
     border-radius: 1em;
-    padding: 6em;
+    padding: 4em;
+    width: 400px;
 }
 
 .heading {
@@ -39,11 +43,11 @@ body {
 }
 
 .heading-green {
-    color: #10B981;
+    color: #10b981;
 }
 
 .subheading {
-    color: #D5D4D8;
+    color: #d5d4d8;
     font-family: Inter;
     margin-top: 0.3em;
     font-weight: 300;
@@ -62,7 +66,6 @@ body {
 .password-options {
     display: flex;
     flex-direction: column;
-
 }
 
 .password-options form {
@@ -72,15 +75,13 @@ body {
     gap: 1em;
 }
 
-
-
 .btn {
     display: block;
     margin-top: 3em;
     font-family: Inter;
     padding: 0.8em 1em;
     border-radius: 0.5em;
-    background-color: #067F56;
+    background-color: #067f56;
     color: #f5f5f5;
     font-size: 1.1rem;
 }
@@ -88,14 +89,12 @@ body {
 .btn:hover {
     cursor: pointer;
     background-color: #1f8865;
-
 }
 
 .password-container {
     margin-top: 2.1875em;
     display: flex;
     gap: 1em;
-
 }
 
 .password {
@@ -105,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: 600;
-    background-color: #2F3E53;
+    background-color: #2f3e53;
     color: #00ffaa;
     font-family: Inter;
 }
